@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+}
+
+h1 {
+  border: solid red;
+}
+
+nav {
+  border: solid green;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}/*# sourceMappingURL=style.css.map */
