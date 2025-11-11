@@ -28,7 +28,7 @@ align-items: center;
 }
 
 h1{
-    border:
+    border: solid
 }
 nav{
     border: solid green;
@@ -36,7 +36,6 @@ nav{
     justify-content: space-around;
     width: 40%;
     align-items: center;
-
 }
 
 a{
@@ -104,3 +103,38 @@ button{
     }
 
 }
+
+// responsivo
+
+//celular que tenha max 500px
+
+// @media(min-widgth: ;) and (max-width: :)[
+
+
+//]
+
+@media(max-width: 500px){
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    
+}
+.caixalogo{
+    border: solid;
+    width: 70%;
+
+}
+
+nav{
+    border:solid;
+    width: 100%;
+}
+a{
+    font-size: 1rem;
+}
+
+
+}
+    

@@ -20,7 +20,7 @@ header {
 }
 
 div {
-  border: none;
+  border: solid;
   display: flex;
   justify-content: space-between;
   width: 15%;
@@ -28,7 +28,7 @@ div {
 }
 
 h1 {
-  
+  border: solid;
 }
 
 nav {
@@ -52,6 +52,18 @@ a {
   cursor: pointer;
   padding: 18px;
   border-radius: 6px;
+}
+
+.primeiraSection {
+  background-color: yellow;
+  height: 50vh;
+}
+
+section {
+  border: solid;
+  width: 55%;
+  height: 55vh;
+  display: flex;
 }
 
 .ProdutosDisponiveis {
@@ -83,4 +95,23 @@ a {
   background-color: green;
   color: white;
   border-radius: 35px;
+}
+
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+  }
+  .caixalogo {
+    border: solid;
+    width: 70%;
+  }
+  nav {
+    border: solid;
+    width: 100%;
+  }
+  a {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
