@@ -19,7 +19,7 @@ header {
   align-items: center;
 }
 
-div {
+.CaixaLogo {
   border: solid;
   display: flex;
   justify-content: space-between;
@@ -55,15 +55,35 @@ a {
 }
 
 .primeiraSection {
-  background-color: yellow;
-  height: 50vh;
+  border: solid red;
+  display: flex;
+  justify-content: space-around;
+  height: 70vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.primeiraSection section {
+  border: solid green;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+.primeiraSection section h2 {
+  font-size: 1.25rem;
+  width: 50%;
+  font-weight: 700;
+  border: solid red;
 }
 
-section {
-  border: solid;
-  width: 55%;
-  height: 55vh;
+.boxbtnsprimeiirasection {
+  border: solid purple;
+  width: 50%;
   display: flex;
+  justify-content: space-around;
+}
+.boxbtnsprimeiirasection bottom {
+  cursor: pointer;
+  padding: 40px 45px;
 }
 
 .ProdutosDisponiveis {

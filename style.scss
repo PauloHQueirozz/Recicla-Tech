@@ -18,7 +18,7 @@ align-items: flex-start; // os itens sao postos no come;o do eixo y (vertical)
 align-items: flex-end; // os itens sao postos no final do eixo y (vertical)
 align-items: center; // os itens sao postos no meio do eixo y (vertical)
 }
-div{
+.CaixaLogo{
 border: solid;
 display: flex;
 justify-content: space-between;
@@ -52,20 +52,52 @@ a{
     border-radius: 6px;
 }
 
-// primeira section
+//----- primeira section --------------
 
 .primeiraSection{
-    background-color: yellow;
-    height: 50vh;
+    border: solid red;
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-between;
+
+    section{
+        border: solid green;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+
+        h2{
+            font-size: 1.25rem;
+            width: 50%;
+            font-weight: 700;
+            border: solid red;
+            
+        }
+    }
 }
 
-section{
-    border: solid;
-    width: 55%;
-    height: 55vh;
+.boxbtnsprimeiirasection{
+    border: solid purple;
+    width: 50%;
     display: flex;
+    justify-content: space-around;
+
+    bottom{
+        cursor: pointer;
+        padding: 40px 45px; 
+        // se fizer desse jeito fica largua x altura
+    }
     
 }
+
+
+
+
+
+
+//----- primeira section --------------
 
 .ProdutosDisponiveis{
     background-color: aquamarine;
