@@ -59,6 +59,7 @@ a {
   align-items: center;
   justify-content: space-between;
   height: 70vh;
+  margin-left: 2vh;
 }
 .primeiraSection section {
   border: solid green;
@@ -75,7 +76,7 @@ a {
 }
 .primeiraSection section p {
   font-size: 1.25rem;
-  width: 50%;
+  width: 65%;
   border: solid blue;
 }
 
@@ -91,7 +92,7 @@ a {
 }
 
 .ProdutosDisponiveis {
-  background-color: aquamarine;
+  background-color: #F3F5F8;
   height: 85vh;
   display: flex;
   justify-content: space-evenly;
