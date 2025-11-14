@@ -91,6 +91,19 @@ a {
   padding: 40px 45px;
 }
 
+.dadosnumericos {
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 15vh;
+  align-items: center;
+}
+.dadosnumericos div {
+  border: solid;
+  width: 15%;
+}
+
 .ProdutosDisponiveis {
   background-color: #F3F5F8;
   height: 85vh;
