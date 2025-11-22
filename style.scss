@@ -56,12 +56,14 @@ a{
 //----- primeira section --------------
 
 .primeiraSection{
+
+    color: #1f2937;
     border: solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
     justify-content: space-between;
-    height: 70vh;
+    height: 60vh;
     margin-left: 2vh;
 
     section{
@@ -72,15 +74,15 @@ a{
         justify-content: space-evenly;
 
         h2{
-            font-size: 3.15rem;
+            font-size: 5.05rem;
             font-weight: 700;
-            width: 50%;
+            width: 110%;
             border: solid red;
             
         }
         p{
-            font-size: 1.25rem;
-            width: 65%;
+            font-size: 1.55rem;
+            width: 85%;
 border: solid blue;
 
 
@@ -89,33 +91,60 @@ border: solid blue;
 }
 
 .boxBtnsPrimeiraSection{
-    border: solid purple;
-    width: 50%;
+    border: solid rgb(0, 225, 255);
+    width: 70%;
     display: flex;
     justify-content: space-around;
 
     bottom{
+        height: 62px;
+        width: 189.81px;
         cursor: pointer;
-        padding: 40px 45px; 
         // se fizer desse jeito fica largua x altura
     }
-    
+      
+}
+.btbBranco{
+    border-radius: 15px;
+    border-color: #2563eb;
+    color: #2563eb;
+    background-color: white;
+    height: 62PX;
+    width: 189.81px;
+    cursor: pointer;
+}
+
+.btnVerde{
+    border-radius: 15px;
+    border: none;
+        color: rgb(255, 255, 255);
+        background-color: #16a34a;
+       height: 62px;
+        width: 189.81px;
+        cursor: pointer;
 }
 
 //------section dados numeros--------//
 
 .dadosnumericos{
 
-    background-color: gray;
+    background-color: rgba(165, 154, 154, 0.164);
     display: flex;
     justify-content: space-around;
     text-align: center;
-    height: 15vh;
+    height: 65px;
+    width: 200vh;
     align-items: center;
     
     div{
-        border: solid;
-        width: 15%;
+        font-size: 20px;
+        border: none;
+        height: 65px;
+        width: 100vh;
+        justify-content: space-around;
+        color: #16a34a;
+        
+        
     }
 }
 
@@ -125,34 +154,21 @@ border: solid blue;
 //----- primeira section --------------
 
 .ProdutosDisponiveis{
-    background-color: #F3F5F8;
+    background-color: #f3f5f8;
     height: 85vh;
     display: flex;
     justify-content: space-evenly;
-  justify-content: space-between;
-  justify-content: space-around;
-  align-items: flex-end;
-  align-items: flex-start;
   align-items: center;
 
     article{
-        border: solid red;
+        border: solid #16a34a;
         width: 20%;
         height: 60vh;
         display: flex;
-        //  flex-direction: row; //Padrão (fileira). Os itens são organizados em forma de linha da esquerda para a direita.
-    // flex-direction: row-reverse; //Os itens são organizados em forma de linha (fileira) da direita para a esquerda.
-    flex-direction: column; //Os itens são organizados em coluna, de cima para baixo.
-    // flex-direction: column-reverse; //Os itens são organizados em forma de colunas iniciando de baixo para cima.
-
-    //justify-content: center;
-    //justify-content: space-evenly;
-    //justify-content: space-around;
+    flex-direction: column; 
     justify-content: space-between;
-
     align-items: center;
-    //align-items: flex-start;
-    //align-items: flex-end;
+ 
 
 img{
     width: 100%;
@@ -160,19 +176,46 @@ img{
     border: solid
 }
 button{
-    width: 55%;
-    height: 5vh;
+    width: 70%;
+    height: 7vh;
     cursor: pointer;
     margin-bottom: 2rem;
     background-color: #16a34a;
     color: #ffffff;
     font-weight: 900;
     border-radius: 35px;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
+    text-align: center;
+
 
 }
         
     }
+
+}
+.teste{
+    height: 0.5vh;
+    
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-left: 25px;
+    p{
+        padding-left: 90px;
+        font-size: 1.5rem
+    }
+
+}
+
+
+
+.cadastro{
+        background-color: green; 
+        height: 100%;
+        width: 1000vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
 
 }
 
@@ -212,3 +255,16 @@ a{
 
 }
     
+//--------------------section dados numericos---------------//
+
+
+
+
+
+
+//-----------------section pordutos disponioveis------------//
+
+.ProdutosDisponiveis{
+
+    border-color: #16a34a;
+}
